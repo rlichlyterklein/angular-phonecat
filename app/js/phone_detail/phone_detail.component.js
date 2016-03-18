@@ -2,5 +2,6 @@
 
 angular.module('phonecat.phoneDetail').component('phoneDetail', {
     controller: 'PhoneDetailCtrl',
-    templateUrl: 'js/phone_detail/phone_detail.html'
+    templateUrl: 'js/phone_detail/phone_detail.html',
+    controllerAs: 'vm'
   });
